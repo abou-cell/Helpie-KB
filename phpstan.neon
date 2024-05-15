@@ -1,0 +1,10 @@
+parameters:
+    level: 0
+    scanDirectories:
+        - vendor/pauple/pluginator/src
+    paths:
+        - features
+        - includes
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+    
